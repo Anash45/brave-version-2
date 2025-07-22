@@ -1,0 +1,1192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Congoassur</title>
+    <link rel="stylesheet" href="./landing-assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./landing-assets/css/aos.css" />
+    <link
+      rel="stylesheet"
+      href="./landing-assets/libraries/fontawesome-free/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./landing-assets/libraries/slick/slick.css" />
+    <link
+      rel="stylesheet"
+      href="./landing-assets/libraries/slick/slick-theme.css"
+    />
+    <link rel="stylesheet" href="./landing-assets/css/style.css" />
+  </head>
+  <body>
+    <header class="">
+      <nav class="navbar navbar-expand-lg bg-light px-3">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="./landing-assets/images/white-logo.webp"
+              alt="Logo"
+              height="46"
+            />
+          </a>
+
+          <!-- Sidebar toggle button -->
+          <button
+            class="navbar-toggler ms-auto"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#mobileSidebar"
+          >
+            <i class="fa fa-bars-staggered"></i>
+          </button>
+
+          <!-- Desktop center links -->
+          <div class="collapse navbar-collapse center-links d-none d-lg-flex">
+            <ul class="navbar-nav mx-auto gap-3">
+              <li class="nav-item">
+                <a class="nav-link px-xl-2 px-1" href="#hero">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-xl-2 px-1" href="#core-value"
+                  >Core Value</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-xl-2 px-1" href="#work-process"
+                  >Work Process</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-xl-2 px-1" href="#faqs">FAQs</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Desktop right social icons -->
+          <div
+            class="d-none d-lg-flex gap-xl-2 gap-1 align-items-center right-icons"
+          >
+            <a href="#" class="nav-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="nav-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="nav-icon"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </nav>
+      <!-- Offcanvas Sidebar for Mobile -->
+      <div
+        class="offcanvas navbar-offcanvas offcanvas-end"
+        tabindex="-1"
+        id="mobileSidebar"
+      >
+        <div class="offcanvas-header">
+          <a class="navbar-brand" href="#">
+            <img
+              src="./landing-assets/images/header-logo1.webp"
+              alt="Logo"
+              height="46"
+            />
+          </a>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+          ></button>
+        </div>
+        <div class="offcanvas-body d-flex flex-column">
+          <!-- Nav Links -->
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#core-value">Core Value</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work-process">Work Process</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#faqs">FAQs</a></li>
+          </ul>
+          <hr />
+          <!-- Social Icons -->
+          <div class="d-flex social-icons gap-2">
+            <a href="#" class="nav-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="nav-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="nav-icon"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section
+      class="hero pt-5 d-flex flex-column justify-content-center position-relative overflow-y-hidden"
+    >
+      <div class="container pt-5 mt-5">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="d-flex flex-column gap-3">
+              <div class="title-pill text-white mb-1" data-aos="fade-left">
+                Making Insurance Simple and Reliable
+              </div>
+              <h2 class="text-white hero-title ft-title_split_anim mb-0 mt-2">
+                Simplifying Insurance For More Secure Life
+              </h2>
+              <p class="mb-0 text-white hero-desc" data-aos="fade-in">
+                We understand that life can be unpredictable. That why we're
+                best offer wide range insurance solution of designed provide.
+              </p>
+              <div class="mt-2 pt-1">
+                <div class="d-flex align-items-center gap-3 flex-wrap">
+                  <a href="#" class="btn btn-lg btn-main">
+                    <div
+                      class="d-flex align-items-center gap-2 justify-content-center position-relative"
+                    >
+                      <span class="lh-1">Discover Our Solutions</span>
+                      <span class="btn-arrow">
+                        <i class="fa fa-arrow-right"></i>
+                        <i class="fa fa-arrow-right"></i>
+                      </span>
+                    </div>
+                  </a>
+                  <a
+                    href="#"
+                    class="d-flex align-items-center ms-1 text-decoration-none play-link gap-2"
+                  >
+                    <div class="play-outer">
+                      <div class="play-circle position-relative">
+                        <i class="fa fa-play ms-1"></i>
+                      </div>
+                    </div>
+                    <span class="lh-1 fw-bold text-white">Play Video</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-6 position-relative d-lg-none d-block text-center mt-4"
+          >
+            <div class="position-relative hero-img mx-auto">
+              <img
+                src="./landing-assets/images/health-insurance.png"
+                alt="Icon"
+                class="hero-icon-floating hif-1"
+              />
+              <img
+                src="./landing-assets/images/family.png"
+                alt="Icon"
+                class="hero-icon-floating hif-2"
+              />
+              <img
+                src="./landing-assets/images/car-insurance.png"
+                alt="Icon"
+                class="hero-icon-floating hif-3"
+              />
+              <img
+                src="./landing-assets/images/insurance.png"
+                alt="Icon"
+                class="hero-icon-floating hif-4"
+              />
+              <img
+                data-aos="fade-up"
+                src="./landing-assets/images/hero5-main.webp"
+                alt="Hero Main"
+                class="w-100 img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="position-absolute bottom-0 w-100 left-0 d-lg-block d-none">
+        <div class="container">
+          <div class="col-lg-6 ms-auto position-relative">
+            <div class="hero-img-cont position-absolute">
+              <img
+                src="./landing-assets/images/health-insurance.png"
+                alt="Icon"
+                class="hero-icon-floating hif-1"
+              />
+              <img
+                src="./landing-assets/images/family.png"
+                alt="Icon"
+                class="hero-icon-floating hif-2"
+              />
+              <img
+                src="./landing-assets/images/car-insurance.png"
+                alt="Icon"
+                class="hero-icon-floating hif-3"
+              />
+              <img
+                src="./landing-assets/images/insurance.png"
+                alt="Icon"
+                class="hero-icon-floating hif-4"
+              />
+              <div class="w-100 text-center" data-aos="fade-up">
+                <img
+                  src="./landing-assets/images/hero5-main.webp"
+                  alt="Hero Main"
+                  class="w-100 hero-img-img img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-5 about-sec">
+      <div class="container py-lg-5 py-4">
+        <div class="row align-items-lg-center">
+          <div class="col-lg-5">
+            <div class="ft-reveal ft-image-anime">
+              <img
+                src="./landing-assets/images/about5-image.webp"
+                alt="About"
+                class="w-100"
+              />
+            </div>
+          </div>
+          <div class="col-lg-7 mt-lg-0 mt-4 pt-lg-0 pt-3">
+            <div class="d-flex flex-column gap-3 ps-xl-5 ms-lg-4">
+              <div
+                class="title-pill title-pill-2 text-main"
+                data-aos="fade-left"
+              >
+                About Congoassur Insurance
+              </div>
+              <h2
+                class="sec-title fw-semibold lh-sm text-dark ft-title_split_anim"
+              >
+                Securing Your Future With Congoassur Care Commitment
+              </h2>
+              <div class="d-flex flex-column gap-2">
+                <p class="sec-desc mb-0 fw-medium text-body" data-aos="fade-in">
+                  Our team of dedicattion professionals works closely with each
+                  client the provide custom insurance solution an that offer
+                  both comprehensive coverage and exceptional value, we believe
+                  in.
+                </p>
+                <div class="row">
+                  <div class="col-md-6 mt-3" data-aos="fade-left">
+                    <div class="d-flex items-center gap-2">
+                      <div class="abt-check text-white">
+                        <i class="fa fa-check"></i>
+                      </div>
+                      <span class="fw-semibold sec-desc lh-sm"
+                        >Client-Centered Approach</span
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="col-md-6 mt-3"
+                    data-aos="fade-left"
+                    data-aos-delay="200"
+                  >
+                    <div class="d-flex items-center gap-2">
+                      <div class="abt-check text-white">
+                        <i class="fa fa-check"></i>
+                      </div>
+                      <span class="fw-semibold sec-desc lh-sm"
+                        >Client-Centered Approach</span
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="col-md-6 mt-3"
+                    data-aos="fade-left"
+                    data-aos-delay="400"
+                  >
+                    <div class="d-flex items-center gap-2">
+                      <div class="abt-check text-white">
+                        <i class="fa fa-check"></i>
+                      </div>
+                      <span class="fw-semibold sec-desc lh-sm"
+                        >Client-Centered Approach</span
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="col-md-6 mt-3"
+                    data-aos="fade-left"
+                    data-aos-delay="600"
+                  >
+                    <div class="d-flex items-center gap-2">
+                      <div class="abt-check text-white">
+                        <i class="fa fa-check"></i>
+                      </div>
+                      <span class="fw-semibold sec-desc lh-sm"
+                        >Client-Centered Approach</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-4">
+                <a
+                  href="#"
+                  class="btn btn-lg btn-main btn-main-2"
+                  data-aos="fade-left"
+                >
+                  <div
+                    class="d-flex align-items-center gap-2 justify-content-center position-relative"
+                  >
+                    <span class="lh-1">Discover Our Solutions</span>
+                    <span class="btn-arrow">
+                      <i class="fa fa-arrow-right"></i>
+                      <i class="fa fa-arrow-right"></i>
+                    </span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pb-5 core-sec">
+      <div class="container pb-lg-5 pb-4">
+        <div class="pb-0">
+          <div
+            class="title-pill title-pill-2 text-main mx-auto"
+            data-aos="fade-left"
+          >
+            core value
+          </div>
+          <h2
+            class="sec-title fw-semibold lh-sm text-dark ft-title_split_anim text-center"
+          >
+            OUR CORE VALUE
+          </h2>
+        </div>
+        <div class="row">
+          <div class="col-xl-4 col-md-6 col-12 mt-4">
+            <div class="work-box work-box-1 d-flex gap-4" data-aos="zoom-in-up">
+              <div class="core-icon-box mb-0">
+                <img
+                  src="./landing-assets/images/24-hours-support.png"
+                  alt="Icon"
+                  class="core-icon"
+                />
+              </div>
+              <div class="content text-start">
+                <h4 class="mb-0 fw-semibold text-dark mb-2 text-capitalize">
+                  24/7  support
+                </h4>
+                <p class="mb-0 text-start sec-desc text-body fw-medium lh-sm">
+                  Simplify operations with an intuitive and easy-to-use platform.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6 col-12 mt-4">
+            <div class="work-box work-box-1 d-flex gap-4" data-aos="zoom-in-up">
+              <div class="core-icon-box mb-0">
+                <img
+                  src="./landing-assets/images/transparency.png"
+                  alt="Icon"
+                  class="core-icon"
+                />
+              </div>
+              <div class="content text-start">
+                <h4 class="mb-0 fw-semibold text-dark mb-2 text-capitalize">
+                  Transparency
+                </h4>
+                <p class="mb-0 text-start sec-desc text-body fw-medium lh-sm">
+                  Automate repetitive tasks to save time and increase efficiency.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6 col-12 mt-4">
+            <div class="work-box work-box-1 d-flex gap-4" data-aos="zoom-in-up">
+              <div class="core-icon-box mb-0">
+                <img
+                  src="./landing-assets/images/contract.png"
+                  alt="Icon"
+                  class="core-icon"
+                />
+              </div>
+              <div class="content text-start">
+                <h4 class="mb-0 fw-semibold text-dark mb-2 text-capitalize">
+                  Easy claim
+                </h4>
+                <p class="mb-0 text-start sec-desc text-body fw-medium lh-sm">
+                  Tailor features to fit your unique business needs and workflows.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6 col-12 mt-4">
+            <div class="work-box work-box-1 d-flex gap-4" data-aos="zoom-in-up">
+              <div class="core-icon-box mb-0">
+                <img
+                  src="./landing-assets/images/solution.png"
+                  alt="Icon"
+                  class="core-icon"
+                />
+              </div>
+              <div class="content text-start">
+                <h4 class="mb-0 fw-semibold text-dark mb-2 text-capitalize">
+                  Easy  Solution
+                </h4>
+                <p class="mb-0 text-start sec-desc text-body fw-medium lh-sm">
+                  Grow your business with flexible solutions that scale with you.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6 col-12 mt-4">
+            <div class="work-box work-box-1 d-flex gap-4" data-aos="zoom-in-up">
+              <div class="core-icon-box mb-0">
+                <img
+                  src="./landing-assets/images/pay.png"
+                  alt="Icon"
+                  class="core-icon"
+                />
+              </div>
+              <div class="content text-start">
+                <h4 class="mb-0 fw-semibold text-dark mb-2 text-capitalize">
+                  Easy  Pay
+                </h4>
+                <p class="mb-0 text-start sec-desc text-body fw-medium lh-sm">
+                  Protect your data with advanced encryption and security protocols.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6 col-12 mt-4">
+            <div class="work-box work-box-1 d-flex gap-4" data-aos="zoom-in-up">
+              <div class="core-icon-box mb-0">
+                <img
+                  src="./landing-assets/images/multi-channel.png"
+                  alt="Icon"
+                  class="core-icon"
+                />
+              </div>
+              <div class="content text-start">
+                <h4 class="mb-0 fw-semibold text-dark mb-2 text-capitalize">
+                  multi Service
+                </h4>
+                <p class="mb-0 text-start sec-desc text-body fw-medium lh-sm">
+                  Gain actionable insights with live data tracking and reporting.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-5 process-sec sec-bg">
+      <div class="container py-lg-5 py-4">
+        <div class="pb-3">
+          <div
+            class="title-pill title-pill-2 text-main mx-auto"
+            data-aos="fade-left"
+          >
+            our work process
+          </div>
+          <h2
+            class="sec-title fw-semibold lh-sm text-dark ft-title_split_anim text-center"
+          >
+            Securing Future Made Simple
+          </h2>
+        </div>
+        <div class="row">
+          <div class="col-xl-4 col-md-6 col-12 mt-5 pt-4">
+            <div class="work-box bg-white mt-2" data-aos="zoom-in-up">
+              <div class="icon-area">
+                <div class="icon">
+                  <img src="landing-assets/images/work5-icon1.svg" alt="Icon" />
+                </div>
+                <p class="number">01</p>
+              </div>
+              <div class="content pt-3 mt-3">
+                <h4 class="mb-0 fw-semibold text-dark mb-3">
+                  Tell Us Your Needs
+                </h4>
+                <p class="mb-0 text-center sec-desc text-body fw-medium lh-sm">
+                  We believe in making the Congoassur insurance process as
+                  simple an.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6 col-12 mt-5 pt-4">
+            <div
+              class="work-box bg-white mt-2"
+              data-aos="zoom-in-up"
+              data-aos-delay="400"
+            >
+              <div class="icon-area">
+                <div class="icon">
+                  <img src="landing-assets/images/work5-icon1.svg" alt="Icon" />
+                </div>
+                <p class="number">02</p>
+              </div>
+              <div class="content pt-3 mt-3">
+                <h4 class="mb-0 fw-semibold text-dark mb-3">
+                  Tell Us Your Needs
+                </h4>
+                <p class="mb-0 text-center sec-desc text-body fw-medium lh-sm">
+                  We believe in making the Congoassur insurance process as
+                  simple an.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6 col-12 mt-5 pt-4">
+            <div
+              class="work-box bg-white mt-2"
+              data-aos="zoom-in-up"
+              data-aos-delay="800"
+            >
+              <div class="icon-area">
+                <div class="icon">
+                  <img src="landing-assets/images/work5-icon1.svg" alt="Icon" />
+                </div>
+                <p class="number">03</p>
+              </div>
+              <div class="content pt-3 mt-3">
+                <h4 class="mb-0 fw-semibold text-dark mb-3">
+                  Tell Us Your Needs
+                </h4>
+                <p class="mb-0 text-center sec-desc text-body fw-medium lh-sm">
+                  We believe in making the Congoassur insurance process as
+                  simple an.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6 col-12 mt-5 pt-4">
+            <div
+              class="work-box bg-white mt-2"
+              data-aos="zoom-in-up"
+              data-aos-delay="200"
+            >
+              <div class="icon-area">
+                <div class="icon">
+                  <img src="landing-assets/images/work5-icon1.svg" alt="Icon" />
+                </div>
+                <p class="number">04</p>
+              </div>
+              <div class="content pt-3 mt-3">
+                <h4 class="mb-0 fw-semibold text-dark mb-3">
+                  Tell Us Your Needs
+                </h4>
+                <p class="mb-0 text-center sec-desc text-body fw-medium lh-sm">
+                  We believe in making the Congoassur insurance process as
+                  simple an.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6 col-12 mt-5 pt-4">
+            <div
+              class="work-box bg-white mt-2"
+              data-aos="zoom-in-up"
+              data-aos-delay="400"
+            >
+              <div class="icon-area">
+                <div class="icon">
+                  <img src="landing-assets/images/work5-icon1.svg" alt="Icon" />
+                </div>
+                <p class="number">05</p>
+              </div>
+              <div class="content pt-3 mt-3">
+                <h4 class="mb-0 fw-semibold text-dark mb-3">
+                  Tell Us Your Needs
+                </h4>
+                <p class="mb-0 text-center sec-desc text-body fw-medium lh-sm">
+                  We believe in making the Congoassur insurance process as
+                  simple an.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6 col-12 mt-5 pt-4">
+            <div
+              class="work-box bg-white mt-2"
+              data-aos="zoom-in-up"
+              data-aos-delay="600"
+            >
+              <div class="icon-area">
+                <div class="icon">
+                  <img src="landing-assets/images/work5-icon1.svg" alt="Icon" />
+                </div>
+                <p class="number">06</p>
+              </div>
+              <div class="content pt-3 mt-3">
+                <h4 class="mb-0 fw-semibold text-dark mb-3">
+                  Tell Us Your Needs
+                </h4>
+                <p class="mb-0 text-center sec-desc text-body fw-medium lh-sm">
+                  We believe in making the Congoassur insurance process as
+                  simple an.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-5 chooseus-sec">
+      <div class="container py-lg-5 py-4">
+        <div class="row align-items-lg-center">
+          <div class="col-lg-7 mb-lg-0 mb-4 pb-lg-0 pb-3">
+            <div class="d-flex flex-column gap-3">
+              <div
+                class="title-pill title-pill-2 text-main"
+                data-aos="fade-left"
+              >
+                Why Choose Us
+              </div>
+              <h2
+                class="sec-title fw-semibold lh-sm text-dark ft-title_split_anim"
+              >
+                Why Choose Congoassur: Tailored Strategies, Proven An Results
+              </h2>
+              <div
+                class="d-flex flex-column gap-2 sec-bg px-4 pb-4 pt-2 rounded-4"
+              >
+                <div class="row">
+                  <div class="col-md-6 mt-3" data-aos="fade-left">
+                    <div class="d-flex items-center gap-2">
+                      <div class="abt-check text-white">
+                        <i class="fa fa-check"></i>
+                      </div>
+                      <span class="fw-semibold sec-desc lh-sm"
+                        >Client-Centered Approach</span
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="col-md-6 mt-3"
+                    data-aos="fade-left"
+                    data-aos-delay="200"
+                  >
+                    <div class="d-flex items-center gap-2">
+                      <div class="abt-check text-white">
+                        <i class="fa fa-check"></i>
+                      </div>
+                      <span class="fw-semibold sec-desc lh-sm"
+                        >Client-Centered Approach</span
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="col-md-6 mt-3"
+                    data-aos="fade-left"
+                    data-aos-delay="400"
+                  >
+                    <div class="d-flex items-center gap-2">
+                      <div class="abt-check text-white">
+                        <i class="fa fa-check"></i>
+                      </div>
+                      <span class="fw-semibold sec-desc lh-sm"
+                        >Client-Centered Approach</span
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="col-md-6 mt-3"
+                    data-aos="fade-left"
+                    data-aos-delay="600"
+                  >
+                    <div class="d-flex items-center gap-2">
+                      <div class="abt-check text-white">
+                        <i class="fa fa-check"></i>
+                      </div>
+                      <span class="fw-semibold sec-desc lh-sm"
+                        >Client-Centered Approach</span
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="col-md-6 mt-3"
+                    data-aos="fade-left"
+                    data-aos-delay="400"
+                  >
+                    <div class="d-flex items-center gap-2">
+                      <div class="abt-check text-white">
+                        <i class="fa fa-check"></i>
+                      </div>
+                      <span class="fw-semibold sec-desc lh-sm"
+                        >Client-Centered Approach</span
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="col-md-6 mt-3"
+                    data-aos="fade-left"
+                    data-aos-delay="600"
+                  >
+                    <div class="d-flex items-center gap-2">
+                      <div class="abt-check text-white">
+                        <i class="fa fa-check"></i>
+                      </div>
+                      <span class="fw-semibold sec-desc lh-sm"
+                        >Client-Centered Approach</span
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="col-md-6 mt-3"
+                    data-aos="fade-left"
+                    data-aos-delay="400"
+                  >
+                    <div class="d-flex items-center gap-2">
+                      <div class="abt-check text-white">
+                        <i class="fa fa-check"></i>
+                      </div>
+                      <span class="fw-semibold sec-desc lh-sm"
+                        >Client-Centered Approach</span
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="col-md-6 mt-3"
+                    data-aos="fade-left"
+                    data-aos-delay="600"
+                  >
+                    <div class="d-flex items-center gap-2">
+                      <div class="abt-check text-white">
+                        <i class="fa fa-check"></i>
+                      </div>
+                      <span class="fw-semibold sec-desc lh-sm"
+                        >Client-Centered Approach</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="ft-reveal ft-image-anime">
+              <img
+                src="https://picsum.photos/600/450"
+                alt="About"
+                class="w-100 rounded-4"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="testimonial-sec py-5 sec-bg">
+      <div class="py-lg-5 py-4">
+        <div class="container">
+          <div class="pb-3 mb-4">
+            <div
+              class="title-pill title-pill-2 text-main mx-auto"
+              data-aos="fade-left"
+            >
+              testimonials
+            </div>
+            <h2
+              class="sec-title fw-semibold lh-sm text-dark ft-title_split_anim text-center"
+            >
+              Client Success Stories
+            </h2>
+          </div>
+        </div>
+        <div class="ts-flex-1">
+          <div class="ts-slider-cont">
+            <div class="ts-slide-cont">
+              <div class="ts-box">
+                <div class="ts-stars">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <p class="ts-text">
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique. Duis
+                  cursus,
+                </p>
+                <div class="ts-user-cont">
+                  <img
+                    src="./landing-assets/images/tes1-author3.webp"
+                    alt="User"
+                    class="ts-user-img"
+                  />
+                  <div class="ts-user-details">
+                    <h5 class="ts-user-name">John Doe</h5>
+                    <span class="ts-user-location">Corporate Worker</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ts-slide-cont">
+              <div class="ts-box">
+                <div class="ts-stars">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <p class="ts-text">
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique. Duis
+                  cursus,
+                </p>
+                <div class="ts-user-cont">
+                  <img
+                    src="./landing-assets/images/tes1-author3.webp"
+                    alt="User"
+                    class="ts-user-img"
+                  />
+                  <div class="ts-user-details">
+                    <h5 class="ts-user-name">John Doe</h5>
+                    <span class="ts-user-location">Corporate Worker</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ts-slide-cont">
+              <div class="ts-box">
+                <div class="ts-stars">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <p class="ts-text">
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique. Duis
+                  cursus,
+                </p>
+                <div class="ts-user-cont">
+                  <img
+                    src="./landing-assets/images/tes1-author3.webp"
+                    alt="User"
+                    class="ts-user-img"
+                  />
+                  <div class="ts-user-details">
+                    <h5 class="ts-user-name">John Doe</h5>
+                    <span class="ts-user-location">Corporate Worker</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ts-slider-arrows"></div>
+        </div>
+      </div>
+    </section>
+    <section class="faqs-sec py-5">
+      <div class="py-lg-5 py-4">
+        <div class="container">
+          <div class="pb-3 mb-4">
+            <div
+              class="title-pill title-pill-2 text-main mx-auto"
+              data-aos="fade-left"
+            >
+              FAQS
+            </div>
+            <h2
+              class="sec-title fw-semibold lh-sm text-dark ft-title_split_anim text-center"
+            >
+              Frequently Asked Questions
+            </h2>
+          </div>
+          <div class="row mt-4">
+            <div class="col-lg-6">
+              <div class="faq-content">
+                <div class="accordion accordion1" id="accordionExample">
+                  <div class="accordion-item active">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        What is SEO and why is it important for my business?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseOne"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingOne"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        Digital marketing refers to the use of online platforms
+                        and strategies to promote brands, products, or services.
+                        It includes SEO, social media marketing, content
+                        marketing, email marketing, an paid.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                      >
+                        How long does it take to see results from SEO?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseTwo"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        Digital marketing refers to the use of online platforms
+                        and strategies to promote brands, products, or services.
+                        It includes SEO, social media marketing, content
+                        marketing, email marketing, an paid.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree"
+                        aria-expanded="false"
+                        aria-controls="collapseThree"
+                      >
+                        What services do offer SEO marketing company?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseThree"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingThree"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        Digital marketing refers to the use of online platforms
+                        and strategies to promote brands, products, or services.
+                        It includes SEO, social media marketing, content
+                        marketing, email marketing, an paid.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour"
+                        aria-expanded="false"
+                        aria-controls="collapseFour"
+                      >
+                        How do you approach backlink building?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseFour"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingFour"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        Digital marketing refers to the use of online platforms
+                        and strategies to promote brands, products, or services.
+                        It includes SEO, social media marketing, content
+                        marketing, email marketing, an paid.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseFive"
+                        aria-expanded="false"
+                        aria-controls="collapseFive"
+                      >
+                        What is local SEO how can it benefit my business?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseFive"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingFive"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        Digital marketing refers to the use of online platforms
+                        and strategies to promote brands, products, or services.
+                        It includes SEO, social media marketing, content
+                        marketing, email marketing, an paid.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="faq-content mt-30">
+                <div class="accordion accordion2" id="accordionExample2">
+                  <div class="accordion-item active">
+                    <h2 class="accordion-header" id="headingOne1">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne1"
+                        aria-expanded="true"
+                        aria-controls="collapseOne1"
+                      >
+                        Can you provide references or case studies?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseOne1"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingOne1"
+                      data-bs-parent="#accordionExample2"
+                    >
+                      <div class="accordion-body">
+                        Digital marketing refers to the use of online platforms
+                        and strategies to promote brands, products, or services.
+                        It includes SEO, social media marketing, content
+                        marketing, email marketing, an paid.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo2">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo2"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo2"
+                      >
+                        What is the cost of your consulting services?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseTwo2"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingTwo2"
+                      data-bs-parent="#accordionExample2"
+                    >
+                      <div class="accordion-body">
+                        Digital marketing refers to the use of online platforms
+                        and strategies to promote brands, products, or services.
+                        It includes SEO, social media marketing, content
+                        marketing, email marketing, an paid.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree3">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree3"
+                        aria-expanded="false"
+                        aria-controls="collapseThree3"
+                      >
+                        Can you help with business planning an strategy?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseThree3"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingThree3"
+                      data-bs-parent="#accordionExample2"
+                    >
+                      <div class="accordion-body">
+                        Digital marketing refers to the use of online platforms
+                        and strategies to promote brands, products, or services.
+                        It includes SEO, social media marketing, content
+                        marketing, email marketing, an paid.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour4">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour4"
+                        aria-expanded="false"
+                        aria-controls="collapseFour4"
+                      >
+                        How do you stay updated on industry trends?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseFour4"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingFour4"
+                      data-bs-parent="#accordionExample2"
+                    >
+                      <div class="accordion-body">
+                        Digital marketing refers to the use of online platforms
+                        and strategies to promote brands, products, or services.
+                        It includes SEO, social media marketing, content
+                        marketing, email marketing, an paid.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive5">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseFive5"
+                        aria-expanded="false"
+                        aria-controls="collapseFive5"
+                      >
+                        Are your consulting services customizable?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseFive5"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingFive5"
+                      data-bs-parent="#accordionExample2"
+                    >
+                      <div class="accordion-body">
+                        Digital marketing refers to the use of online platforms
+                        and strategies to promote brands, products, or services.
+                        It includes SEO, social media marketing, content
+                        marketing, email marketing, an paid.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./landing-assets/js/jquery.min.js"></script>
+    <script src="./landing-assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./landing-assets/js/aos.js"></script>
+    <script src="./landing-assets/js/gsap.min.js"></script>
+    <script src="./landing-assets/js/ScrollTrigger.min.js"></script>
+    <script src="./landing-assets/js/SplitText.js"></script>
+    <script src="./landing-assets/libraries/slick/slick.min.js"></script>
+    <script src="./landing-assets/js/main.js"></script>
+  </body>
+</html>
